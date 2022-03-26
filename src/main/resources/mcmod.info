@@ -1,0 +1,16 @@
+[
+{
+  "modid": "overloaded",
+  "name": "Overloaded Mod",
+  "description": "Absolute insanity",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["CrispyTrauma, DyslexicApe"],
+  "credits": "The people behind overloaded.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

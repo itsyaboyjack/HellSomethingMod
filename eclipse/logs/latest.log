@@ -1,0 +1,57 @@
+[17:16:24] [main/INFO]: Setting user: Player689
+[17:16:26] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:16:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Overloaded Mod
+[17:16:37] [Sound Library Loader/INFO]: Sound engine started
+[17:16:39] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[17:16:39] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[17:16:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Overloaded Mod
+[17:16:39] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:16:39] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:16:40] [Sound Library Loader/INFO]: Sound engine started
+[17:16:45] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:16:45] [Server thread/INFO]: Generating keypair
+[17:16:45] [Server thread/INFO]: Preparing start region for level 0
+[17:16:46] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:16:47] [Server thread/INFO]: Player689[local:E:38ad38f8] logged in with entity id 359 at (203.53426438855112, 66.49064318920136, 210.99927725738297)
+[17:16:47] [Server thread/INFO]: Player689 joined the game
+[17:16:59] [Server thread/WARN]: Skipping Entity with id Demon
+[17:16:59] [Server thread/INFO]: [Player689: Unable to summon object]
+[17:16:59] [Client thread/INFO]: [CHAT] Unable to summon object
+[17:17:02] [Server thread/INFO]: Saving and pausing game...
+[17:17:02] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:17:02] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:17:02] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:17:07] [Server thread/INFO]: Saving and pausing game...
+[17:17:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:17:07] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:17:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:28:31] [Server thread/INFO]: [Player689: Changing to clear weather]
+[17:28:31] [Client thread/INFO]: [CHAT] Changing to clear weather
+[17:28:34] [Server thread/INFO]: Saving and pausing game...
+[17:28:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:28:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:28:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:28:39] [Server thread/INFO]: Saving and pausing game...
+[17:28:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:28:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:28:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:29:22] [Client thread/INFO]: Warning: Clientside chunk ticking took 237 ms
+[17:29:22] [Client thread/INFO]: Warning: Clientside chunk ticking took 225 ms
+[17:29:22] [Client thread/INFO]: Warning: Clientside chunk ticking took 219 ms
+[17:29:22] [Client thread/INFO]: Warning: Clientside chunk ticking took 179 ms
+[17:29:58] [Client thread/INFO]: Warning: Clientside chunk ticking took 206 ms
+[17:29:58] [Client thread/INFO]: Warning: Clientside chunk ticking took 209 ms
+[17:29:59] [Client thread/INFO]: Warning: Clientside chunk ticking took 206 ms
+[17:29:59] [Client thread/INFO]: Warning: Clientside chunk ticking took 206 ms
+[17:29:59] [Client thread/INFO]: Warning: Clientside chunk ticking took 208 ms
+[17:31:37] [Server thread/INFO]: Saving and pausing game...
+[17:31:37] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:31:38] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:31:38] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:31:38] [Client thread/INFO]: Stopping!
+[17:31:38] [Server thread/INFO]: Stopping server
+[17:31:38] [Server thread/INFO]: Saving players
+[17:31:38] [Server thread/INFO]: Saving worlds
+[17:31:38] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:31:38] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:31:38] [Server thread/INFO]: Saving chunks for level 'New World'/The End
