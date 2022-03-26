@@ -1,16 +1,38 @@
 WARNING: You are using an unsupported version of ForgeGradle.
 Please consider upgrading to ForgeGradle 4 and helping in the efforts to get old versions working on the modern toolchain.
 See https://gist.github.com/TheCurle/fe7ad3ede188cbdd15c235cc75d52d4a for more info on contributing.
-#################################################
-         ForgeGradle 1.2.2-g2ea0336        
-  https://github.com/MinecraftForge/ForgeGradle  
-#################################################
-               Powered by MCP unknown               
-             http://modcoderpack.com             
-         by: Searge, ProfMobius, Fesh0r,         
-         R4wk, ZeuX, IngisKahn, bspkrs           
-#################################################
+:ideaModule
+Download https://libraries.minecraft.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824-sources.jar
+Download https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107-sources.jar
+Download https://maven.minecraftforge.net/io/netty/netty-all/4.0.10.Final/netty-all-4.0.10.Final-sources.jar
+Download https://maven.minecraftforge.net/io/netty/netty-all/4.0.10.Final/netty-all-4.0.10.Final-javadoc.jar
+Download https://maven.minecraftforge.net/com/google/guava/guava/17.0/guava-17.0-sources.jar
+Download https://maven.minecraftforge.net/com/google/guava/guava/17.0/guava-17.0-javadoc.jar
+Download https://maven.minecraftforge.net/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar
+Download https://maven.minecraftforge.net/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-javadoc.jar
+Download https://maven.minecraftforge.net/commons-io/commons-io/2.4/commons-io-2.4-sources.jar
+Download https://maven.minecraftforge.net/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar
+Download https://maven.minecraftforge.net/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar
+Download https://maven.minecraftforge.net/commons-codec/commons-codec/1.9/commons-codec-1.9-javadoc.jar
+Download https://maven.minecraftforge.net/net/java/jinput/jinput/2.0.5/jinput-2.0.5-sources.jar
+Download https://maven.minecraftforge.net/net/java/jinput/jinput/2.0.5/jinput-2.0.5-javadoc.jar
+Download https://maven.minecraftforge.net/net/java/jutils/jutils/1.0.0/jutils-1.0.0-sources.jar
+Download https://maven.minecraftforge.net/net/java/jutils/jutils/1.0.0/jutils-1.0.0-javadoc.jar
+Download https://libraries.minecraft.net/com/mojang/authlib/1.5.16/authlib-1.5.16-sources.jar
+Download https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9-sources.jar
+Download https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9-javadoc.jar
+Download https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9-sources.jar
+Download https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9-javadoc.jar
+Download https://maven.minecraftforge.net/org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1-sources.jar
+Download https://maven.minecraftforge.net/org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1-javadoc.jar
+Download https://maven.minecraftforge.net/org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1-sources.jar
+Download https://maven.minecraftforge.net/org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1-javadoc.jar
+Download https://maven.minecraftforge.net/org/scala-lang/scala-actors/2.11.0/scala-actors-2.11.0-javadoc.jar
+Download https://maven.minecraftforge.net/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-javadoc.jar
+:ideaProject
+:ideaWorkspace
+:idea
 
-CONFIGURE SUCCESSFUL
+BUILD SUCCESSFUL
 
-Total time: 17.66 secs
+Total time: 1 mins 40.471 secs
