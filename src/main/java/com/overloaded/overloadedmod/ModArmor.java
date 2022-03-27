@@ -26,5 +26,4 @@ public class ModArmor {
         hellstone_boots = new ItemHellBoots(hellstoneArmorMaterial, 0, 3);
 
     }
-
 }
