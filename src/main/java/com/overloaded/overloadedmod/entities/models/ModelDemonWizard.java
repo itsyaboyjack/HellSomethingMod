@@ -1,15 +1,22 @@
 package com.overloaded.overloadedmod.entities.models;
 
+import com.overloaded.overloadedmod.entities.EntityDemonWizardMob;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.model.ModelBase;
-import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.monster.EntityZombie;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.MathHelper;
+import net.minecraftforge.event.entity.living.LivingHurtEvent;
 
 /**
  * ModelFallenSamurai - Undefined
  * Created using Tabula 4.1.1
  */
+
 public class ModelDemonWizard extends ModelBase {
     public ModelRenderer head;
     public ModelRenderer body;
@@ -23,6 +30,10 @@ public class ModelDemonWizard extends ModelBase {
     public ModelRenderer leftArmSleeve;
     public ModelRenderer rightLegPants;
     public ModelRenderer leftLegPants;
+    public boolean isSwinging;
+    public Entity attacked;
+    public Entity attacker;
+
 
     public ModelDemonWizard() {
         this.textureWidth = 64;
@@ -86,17 +97,35 @@ public class ModelDemonWizard extends ModelBase {
         this.rightArm.render(f5);
     }
 
+    @SubscribeEvent
+    public void hurtEvent(LivingHurtEvent event) {
+        attacked = event.entity;
+        attacker = event.source.getEntity();
+
+        if(attacked instanceof EntityPlayer && attacker instanceof EntityDemonWizardMob) {
+            isSwinging = true;
+        }
+    }
+
+    @Override
     public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5, Entity entity) {
 
         super.setRotationAngles(f, f1, f2, f3, f4, f5, entity);
-        this.leftArm.rotateAngleX = MathHelper.cos(f * 0.6662F) * -1.0F * f1;
-        this.leftArmSleeve.rotateAngleX = MathHelper.cos(f * 0.6662F) * -1.0F * f1;
-        this.rightArm.rotateAngleX = MathHelper.cos(f * 0.6662F) * 1.0F * f1;
-        this.rightArmSleeve.rotateAngleX = MathHelper.cos(f * 0.6662F) * 1.0F * f1;
-        this.leftLeg.rotateAngleX = MathHelper.cos(f * 0.6662F + (float)Math.PI) * 1.0F * f1 * 0.5F;
-        this.leftLegPants.rotateAngleX = MathHelper.cos(f * 0.6662F + (float)Math.PI) * 1.0F * f1 * 0.5F;
-        this.rightLeg.rotateAngleX = MathHelper.cos(f * 0.6662F) * 2.0F * f1 * 0.5F;
-        this.rightLegPants.rotateAngleX = MathHelper.cos(f * 0.6662F) * 2.0F * f1 * 0.5F;
+        int swingCounter;
+
+        this.leftArm.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
+        this.leftArmSleeve.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
+        this.rightArm.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
+        this.rightArmSleeve.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
+        this.leftLeg.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
+        this.leftLegPants.rotateAngleX = MathHelper.cos(f * 1.0F ) * -1.0F * f1;
+        this.rightLeg.rotateAngleX = MathHelper.cos(f * -1.0F) * 1.0F * f1;
+        this.rightLegPants.rotateAngleX = MathHelper.cos(f * -1.0F) * 1.0F * f1;
+
+        if(isSwinging) {
+            System.out.println("Ahmed is gay");
+            
+        }
     }
 
     public void setRotateAngle(ModelRenderer modelRenderer, float x, float y, float z) {

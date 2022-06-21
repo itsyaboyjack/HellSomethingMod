@@ -1,10 +1,11 @@
 package com.overloaded.overloadedmod;
 
-import com.overloaded.overloadedmod.entities.EntityFallenSamurai;
+import com.overloaded.overloadedmod.entities.models.ModelDemonWizard;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid = OverloadedMod.MODID, version = OverloadedMod.VERSION, name = OverloadedMod.NAME)
 public class OverloadedMod
@@ -30,7 +31,7 @@ public class OverloadedMod
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-
+        MinecraftForge.EVENT_BUS.register(ModelDemonWizard.class);
     }
 
     @Mod.EventHandler
