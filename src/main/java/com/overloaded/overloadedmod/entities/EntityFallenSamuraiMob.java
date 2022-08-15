@@ -44,7 +44,6 @@ public class EntityFallenSamuraiMob extends EntityMob implements IBossDisplayDat
         this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(.5D);
         this.getEntityAttribute(SharedMonsterAttributes.knockbackResistance).setBaseValue(.6D);
     }
-
     @Override
     protected boolean canDespawn() {
         return false;

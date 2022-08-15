@@ -5,6 +5,7 @@ import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.model.ModelBase;
+import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.monster.EntityZombie;
@@ -97,16 +98,6 @@ public class ModelDemonWizard extends ModelBase {
         this.rightArm.render(f5);
     }
 
-    @SubscribeEvent
-    public void hurtEvent(LivingHurtEvent event) {
-        attacked = event.entity;
-        attacker = event.source.getEntity();
-
-        if(attacked instanceof EntityPlayer && attacker instanceof EntityDemonWizardMob) {
-            isSwinging = true;
-        }
-    }
-
     @Override
     public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5, Entity entity) {
 
@@ -122,10 +113,6 @@ public class ModelDemonWizard extends ModelBase {
         this.rightLeg.rotateAngleX = MathHelper.cos(f * -1.0F) * 1.0F * f1;
         this.rightLegPants.rotateAngleX = MathHelper.cos(f * -1.0F) * 1.0F * f1;
 
-        if(isSwinging) {
-            System.out.println("Ahmed is gay");
-            
-        }
     }
 
     public void setRotateAngle(ModelRenderer modelRenderer, float x, float y, float z) {
@@ -133,4 +120,5 @@ public class ModelDemonWizard extends ModelBase {
         modelRenderer.rotateAngleY = y;
         modelRenderer.rotateAngleZ = z;
     }
+
 }
